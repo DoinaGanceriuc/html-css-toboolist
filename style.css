@@ -6,6 +6,7 @@
 
 body {
     background-color: #F6F8F9;
+    height: auto;
 }
 
 .intestazione {
@@ -17,7 +18,7 @@ body {
     background-color: white;
 }
 
-#testo {
+#titolo {
    font-weight: 800;
    font-size: 2rem;
    line-height: 3rem;
@@ -28,12 +29,13 @@ body {
     vertical-align:top;
 }
 
-.contenitore{
+.contenitore {
     margin: auto;
     padding: 1rem;
     width: 55%;
     background-color: white;
     margin-top: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .pulsanti {
@@ -56,29 +58,37 @@ body {
     color: #D6DADE;
 }
 
-.contenitore2{
+.contenitore2 {
     margin: auto;
     padding: 0;
     width: 55%;
     background-color: white;
-    margin-top: 0.1rem;
 }
 
-.freccia {
-    margin-left: 1rem;
-    /* display: inline-block; */
-    /* padding: 0.3rem; */
-    
-}
-.task {
-    display: inline-block;
+.obiettivi {
     font-weight: 700;
-    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 1rem;
-    display: inline-block;
+    margin-top: 0.1rem;
+    margin-left: 1rem;
+    padding: 0rem;
+}
+.freccia {
+  /*   margin-left: 1rem; */
+  display: inline-block;
+  margin: 0;
+  width: 1rem;
+  font-size: 1.5rem;
 }
 
+.punti-salienti {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+   
+}
+.circle {
+    padding-bottom: 0.5rem;
+}
 
 .cerchio {
     margin-left: 1rem;
@@ -86,38 +96,102 @@ body {
     height: 20px;
     background: white;
     border-radius: 50%;
-    color:lightgreen;
-    border: 2px solid lightgreen;
+    color:#6AC3AE;
+    border: 2px solid #6AC3AE;
     display: inline-block;
+    
+}
+
+.cerchio-rosso {
+    margin-left: 1rem;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    color:red;
+    border: 2px solid red;
+    display: inline-block;
+    
 }
 
 .spunta
 {
     text-align: center;
-    line-height: 1rem;
+    line-height: 0.5rem;
     padding: 0.1rem;
     display: inline-block;
 }
 
-.punto1 {
-    /* margin-left: 1rem; */
+.xrossa
+{
+    text-align: center;
+    line-height: 0.5rem;
+    padding: 0.1rem;
+    display: inline-block;
+}
+
+.punti {
     font-weight: 600;
-    /* padding: 0.3rem; */
+    padding: 0.3rem;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    margin: 0.2rem;
     margin-top: 0.5rem;
 }
 
 .blu {
-    width: 50px;
+    width: 4rem;
     height: auto;
     background:#45ABEA;
     display: inline-block;
     border-radius: 0.5rem;
+    padding: 0.1rem;
 }
 
-.editorial {
+.violetto {
+    width: 4rem;
+    height: auto;
+    background:#9C72E4;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.1rem;
+}
+
+.verde {
+    width: 4rem;
+    height: auto;
+    background:#64C0A9;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.1rem;
+}
+
+.arancione {
+    width: 4rem;
+    height: auto;
+    background:#F3A236;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.1rem;
+}
+
+.rosa {
+    width: 4rem;
+    height: auto;
+    background:#D863A1;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.1rem;
+}
+
+.verde2 {
+    width: 4rem;
+    height: auto;
+    background:#B0C926;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.1rem;
+}
+.scritta {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     text-align: center;
@@ -125,4 +199,26 @@ body {
     color: white;
     padding: 0.1rem;
 
+}
+
+.viola {
+    margin-left: 1rem;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    color:lightgreen;
+    border: 2px solid lightgreen;
+    display: inline;
+}
+
+.punto2 {
+    /* margin-left: 1rem; */
+    font-weight: 600;
+    /* padding: 0.3rem; */
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 0.2rem;
+    margin-top: 0.5rem;
+    /* display: inline-block; */
 }
