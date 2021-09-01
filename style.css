@@ -3,3 +3,126 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #F6F8F9;
+}
+
+.intestazione {
+    background-color: white;
+}
+#site-header {
+    padding: 1rem;
+    display: inline-block;
+    background-color: white;
+}
+
+#testo {
+   font-weight: 800;
+   font-size: 2rem;
+   line-height: 3rem;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    vertical-align:top;
+}
+
+.contenitore{
+    margin: auto;
+    padding: 1rem;
+    width: 55%;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+.pulsanti {
+    margin-left: 1rem;
+}
+
+#bottone1 {
+    border-radius: 5px;
+    background-color: #47ADF1;
+    padding: 0.3rem;
+    border: 2px solid #47ADF1;
+    color: white;
+}
+
+#bottone2 {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 0.3rem;
+    border: 2px solid #DBDFE3;
+    color: #D6DADE;
+}
+
+.contenitore2{
+    margin: auto;
+    padding: 0;
+    width: 55%;
+    background-color: white;
+    margin-top: 0.1rem;
+}
+
+.freccia {
+    margin-left: 1rem;
+    /* display: inline-block; */
+    /* padding: 0.3rem; */
+    
+}
+.task {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+
+.cerchio {
+    margin-left: 1rem;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    color:lightgreen;
+    border: 2px solid lightgreen;
+    display: inline-block;
+}
+
+.spunta
+{
+    text-align: center;
+    line-height: 1rem;
+    padding: 0.1rem;
+    display: inline-block;
+}
+
+.punto1 {
+    /* margin-left: 1rem; */
+    font-weight: 600;
+    /* padding: 0.3rem; */
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+.blu {
+    width: 50px;
+    height: auto;
+    background:#45ABEA;
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+
+.editorial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    line-height: 1rem;
+    color: white;
+    padding: 0.1rem;
+
+}
